@@ -16,10 +16,11 @@
 		DD2713EA1ED0D97E0070B993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2713E81ED0D97E0070B993 /* Main.storyboard */; };
 		DD2713EC1ED0D97E0070B993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2713EB1ED0D97E0070B993 /* Assets.xcassets */; };
 		DD2713EF1ED0D97E0070B993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2713ED1ED0D97E0070B993 /* LaunchScreen.storyboard */; };
-		DD2713F71ED0D9A80070B993 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2713F61ED0D9A80070B993 /* LoginViewController.swift */; };
-		DD2713F91ED0DA7C0070B993 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2713F81ED0DA7C0070B993 /* FirstViewController.swift */; };
-		DD2713FB1ED0DAFF0070B993 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2713FA1ED0DAFF0070B993 /* RegisterViewController.swift */; };
-		DD2713FD1ED0DBBF0070B993 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2713FC1ED0DBBF0070B993 /* EventsViewController.swift */; };
+		DDD379D71ED11324006D4505 /* LoginRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD379D61ED11324006D4505 /* LoginRegistrationTableViewController.swift */; };
+		DDD379D91ED11538006D4505 /* EventListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD379D81ED11538006D4505 /* EventListTableViewController.swift */; };
+		DDD379DB1ED11590006D4505 /* EventDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD379DA1ED11590006D4505 /* EventDetailTableViewController.swift */; };
+		DDD379DD1ED1167A006D4505 /* AddEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD379DC1ED1167A006D4505 /* AddEventTableViewController.swift */; };
+		DDD379DF1ED1182A006D4505 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD379DE1ED1182A006D4505 /* EventTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +37,11 @@
 		DD2713EB1ED0D97E0070B993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2713EE1ED0D97E0070B993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2713F01ED0D97E0070B993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD2713F61ED0D9A80070B993 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		DD2713F81ED0DA7C0070B993 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DD2713FA1ED0DAFF0070B993 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		DD2713FC1ED0DBBF0070B993 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		DDD379D61ED11324006D4505 /* LoginRegistrationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRegistrationTableViewController.swift; sourceTree = "<group>"; };
+		DDD379D81ED11538006D4505 /* EventListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListTableViewController.swift; sourceTree = "<group>"; };
+		DDD379DA1ED11590006D4505 /* EventDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailTableViewController.swift; sourceTree = "<group>"; };
+		DDD379DC1ED1167A006D4505 /* AddEventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventTableViewController.swift; sourceTree = "<group>"; };
+		DDD379DE1ED1182A006D4505 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,10 +111,11 @@
 		DD2714071ED0DDD50070B993 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DD2713F61ED0D9A80070B993 /* LoginViewController.swift */,
-				DD2713FC1ED0DBBF0070B993 /* EventsViewController.swift */,
-				DD2713FA1ED0DAFF0070B993 /* RegisterViewController.swift */,
-				DD2713F81ED0DA7C0070B993 /* FirstViewController.swift */,
+				DDD379D61ED11324006D4505 /* LoginRegistrationTableViewController.swift */,
+				DDD379D81ED11538006D4505 /* EventListTableViewController.swift */,
+				DDD379DA1ED11590006D4505 /* EventDetailTableViewController.swift */,
+				DDD379DC1ED1167A006D4505 /* AddEventTableViewController.swift */,
+				DDD379DE1ED1182A006D4505 /* EventTableViewCell.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -250,14 +253,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2713F71ED0D9A80070B993 /* LoginViewController.swift in Sources */,
-				DD2713FB1ED0DAFF0070B993 /* RegisterViewController.swift in Sources */,
+				DDD379DF1ED1182A006D4505 /* EventTableViewCell.swift in Sources */,
+				DDD379DB1ED11590006D4505 /* EventDetailTableViewController.swift in Sources */,
+				DDD379D91ED11538006D4505 /* EventListTableViewController.swift in Sources */,
+				DDD379DD1ED1167A006D4505 /* AddEventTableViewController.swift in Sources */,
+				DDD379D71ED11324006D4505 /* LoginRegistrationTableViewController.swift in Sources */,
 				133BD5D11ED0FD1700A5DED0 /* VolunteerOportunitiesModel.swift in Sources */,
 				133BD5CF1ED0FB2100A5DED0 /* UserDataModel.swift in Sources */,
 				DD2713E71ED0D97E0070B993 /* ViewController.swift in Sources */,
 				DD2713E51ED0D97E0070B993 /* AppDelegate.swift in Sources */,
-				DD2713F91ED0DA7C0070B993 /* FirstViewController.swift in Sources */,
-				DD2713FD1ED0DBBF0070B993 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
