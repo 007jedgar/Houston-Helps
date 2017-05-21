@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import FirebaseDatabase
 
 class OportunitiesModel {
     
@@ -24,5 +25,4 @@ class OportunitiesModel {
         
         
     }
-    
 }
